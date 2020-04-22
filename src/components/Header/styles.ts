@@ -49,17 +49,6 @@ export const Container = styled.div<ContainerProps>`
           padding: 0 15px;
           position: relative;
           padding-bottom: 10px;
-
-          &:first-child::after {
-            content: '';
-            margin-left: 15px;
-            width: 73px;
-            height: 2px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background: #ff872c;
-          }
         }
       }
     }
