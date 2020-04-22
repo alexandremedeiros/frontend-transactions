@@ -17,10 +17,10 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
       <nav>
         <ul>
           <li>
-            <Link to="teste">Listagem</Link>
+            <Link to="/">Listagem</Link>
           </li>
           <li>
-            <Link to="importar">Importar</Link>
+            <Link to="/import">Importar</Link>
           </li>
         </ul>
       </nav>
