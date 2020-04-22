@@ -31,6 +31,37 @@ export const Container = styled.div<ContainerProps>`
           opacity: 0.6;
         }
       }
+
+      ul {
+        display: flex;
+        flex: 1;
+        list-style: none;
+        align-items: center;
+
+        li {
+          & + li {
+            margin-left: 32px;
+          }
+
+          color: #fff;
+          justify-content: center;
+          align-items: center;
+          padding: 0 15px;
+          position: relative;
+          padding-bottom: 10px;
+
+          &:first-child::after {
+            content: '';
+            margin-left: 15px;
+            width: 73px;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #ff872c;
+          }
+        }
+      }
     }
   }
 `;
